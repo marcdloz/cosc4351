@@ -1,0 +1,18 @@
+Assignment #2
+COSC 4351
+
+Due Date: October 13, 2017 23:59:59
+
+Description: XYZ is a website to which qualified individuals are encouraged to contribute information about the latest technology trends. Contributors may write original articles or comment on articles written by others.
+XYZ wishes to encourage high-quality contributions by a wide range of contributors.  For this purpose, it plans to extend its current computer system to provide incentives that will reward participation.  The incentives are of four categories:
+(a) Points for certain types of activity. 
+(b) Badges given as recognition of specific accomplishments.  
+(c) Rewards based on the quality and extent of contribution. 
+(d) Bonus rewards derived from the other three categories.
+
+Based on above requirements provide followings:
+
+1. Class diagram for the modules your are required to build the system.
+2. Use Case diagrams for each module. 
+3. Sequence diagram
+4. Activity diagram

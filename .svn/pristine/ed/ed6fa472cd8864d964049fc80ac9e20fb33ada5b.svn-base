@@ -1,0 +1,38 @@
+1. In the attached PDF file (se3architecture), I have added both a sample site architecture design and a sample component-based design.
+
+The included site architecture was built to describe on what we think what the site would be at it's current state. However, under the Profile page, the Rewards and Contributions would be the newly added pages for the assignment.
+This is where the inclusion of the rewards, points and badge interfaces would be.
+
+As for the component-based design, the overall structure would indeed be based off this structure which is of model-view-controller. We chose this design due to the the ease-of-use due
+to it having more freedom on the elements and the reuseability of the components for easier software updating. A sample diagram has been provided to illustrate how the portion of the Benefits page would be designed which would
+be the newly extended version of the website. The main hub (Benefits Session) would be required to have all interfaces of Rewards, Badges and Points components. With the Points component, it will need to have a connection
+to Rewards as we are assuming you will have to exchange your points for the actual rewards listed. The Rewards component itself also would be required to the Benefits session as contributors may be awarded the rewards itself 
+instead of having to use required points. Also, this would be where it connects to the Checkout interface to finalize the rewards then on to the Transaction component. To note, Points will only have an optional connection 
+to the Checkout interface. This should work congruently with the sequence, user-case, activity and class diagrams that we previously created in Assignment 2.
+
+Finally, we would use Angular 2 for our technology to create this due to it being a newly updated technology that utilized the MVC framework and is
+component-based. If given the option to also create the database for data storage then mySQL would be a likely choice as well as Google Firebase. The project would be done under
+the Agile methodology SCRUM due to the required code testing/refactoring which will be needed as well as how swift the business would want this extention to be done meaning fast
+deliverables and multiple sprints. ATDD would als be utilized.
+
+2. when it comes to designing patterns for the website, We would like to take an extensive approach to ensure that we have solutions for as many repeatable problems there are.
+We will begin by by catagorizing the different design patterns we will be looking into which include: Architectural, Data, Component, Interface, and Webapp desgin problems. We decided
+to look into all of these designs patterns, because they are all essential desgins when creating a web application. Some of these desings can become very granular in regards to their issues,
+and those issues are very important to clairfy, so that they are not reoccuring continuously. Achitectural design patterns will look for broader probelms that are solved using the 
+STRUCTURAL approach. For data design problems, we will use DATA MODELING SOLUTIONS to ensure that we have solutions for reoccuring problems. For component based probelms will analyze 
+problems with the developement subsystems and components, in regards to how they communicate and are placed in the overall achitecture. Interface design will solidify issues that most end users 
+see when using the application. Lastly, Webapp design will look forthe overall issues of the webapp, since its success in this case is success of the entire project. All webapp issues must be solidified.
+ 
+3. To have an efficient program that is comprehendible by all individuals, we decided to use a very effective techonology in the Angular framework. Our front end will consist of AngularJS,
+which is Javascript within the Angular frame work. we will also use HTML, CSS, and Ajax to compliment the frontend capabilities visually and with backend software. 
+these coding languages will establish great interaction and create an "ease of use" for the end user.Javascript is special in a sense that it needs no compling to work, so it creates a very fast
+and efficient process. Our backend will be created with NodeJS, Ajax and Php to ensure that we have strong coding interaction between the frontend and backend, since these technologies are often utilizied
+in sync. NodeJS supports both single and multithreaded applications which will allow for stronger processing within the application without any hit in terms of efficieny (lag). There are alot of API's that will
+be utilized as well, but those are arbritrary and come in relevance to the overall stack.
+
+4. The best development process to utilize for a project of this magnitutde would, in our recommendation, be Agile developement. With Agile, we can continuously gather end user specifications/ modificiations
+with ease, because agile is built and suited for adapting to change. this way, we can contiuously increment the software development to meet user requirements until the whole project is completed for 
+testing and production. we will need heavy communication, as well as a strong coding infrastructure to allow for all of the specifications to be met. For a project like this, 
+continuous user feed back will be important to ensure that we have a strong enough application to produce the results that are needed, including grasping strong clientel for input
+and a strong incentive plan for reward.
+ 

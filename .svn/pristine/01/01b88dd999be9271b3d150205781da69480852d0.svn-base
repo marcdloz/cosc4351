@@ -1,0 +1,26 @@
+package cosc4351project;
+
+import java.util.Scanner;
+import java.time.LocalDate;
+
+public class DayOfBirth {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Please enter all fields w/ numerical values!");
+		
+		System.out.println("Please enter the year you were born: ");
+		int year = scan.nextInt();
+		
+		System.out.println("Please enter the month you were born: ");
+		int month = scan.nextInt();
+		
+		System.out.println("Please enter the day you were born: ");
+		int day = scan.nextInt();
+		
+		LocalDate birthDate = LocalDate.of(year, month, day);
+		System.out.println("You were born on a " + birthDate.getDayOfWeek());
+
+		scan.close();
+	}
+}

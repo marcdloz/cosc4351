@@ -1,0 +1,85 @@
+import java.util.Scanner;
+import java.time.LocalDate;
+	
+public class birth {
+	
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Please enter all fields!");
+		
+		System.out.println("Please enter the year you were born: ");
+		int year = scan.nextInt();
+		
+		System.out.println("Please enter the month you were born: ");
+		String sc = scan.next();
+		int month = 0;
+		if ("january".equals(sc) || "January".equals(sc) || "1".equals(sc) || "01".equals(sc))
+		{
+			month = 01;
+			
+		}
+		else if("february".equals(sc) || "February".equals(sc) || "2".equals(sc) || "02".equals(sc))
+		{
+			month = 02;
+			
+		}
+		else if("march".equals(sc) || "March".equals(sc) || "3".equals(sc) || "03".equals(sc))
+		{
+			month = 03;
+			
+		}
+		else if("april".equals(sc) || "April".equals(sc) || "4".equals(sc) || "04".equals(sc))
+		{
+			month = 04;
+			
+		}
+		else if("may".equals(sc) || "May".equals(sc) || "5".equals(sc) || "05".equals(sc))
+		{
+			month = 05;
+			
+		}
+		else if("june".equals(sc) || "June".equals(sc) || "6".equals(sc) || "06".equals(sc))
+		{
+			month = 06;
+			
+		}
+		else if("july".equals(sc) || "July".equals(sc) || "7".equals(sc) || "07".equals(sc))
+		{
+			month = 07;
+			
+		}
+		else if("august".equals(sc) || "August".equals(sc) || "8".equals(sc) || "08".equals(sc))
+		{
+			month = 8;
+			
+		}
+		else if("september".equals(sc) || "September".equals(sc) || "9".equals(sc) || "09".equals(sc))
+		{
+			month = 9;
+			
+		}
+		else if("october".equals(sc) || "October".equals(sc) || "10".equals(sc))
+		{
+			month = 10;
+			
+		}
+		else if("novemebr".equals(sc) || "Novemebr".equals(sc)|| "11".equals(sc))
+		{
+			month = 11;
+			
+		}
+		else if("december".equals(sc) || "December".equals(sc) || "12".equals(sc))
+		{
+			month = 12;
+			
+		}
+		
+		System.out.println("Please enter the day you were born: ");
+		int day = scan.nextInt();
+		
+		LocalDate birthDate = LocalDate.of(year, month, day);
+		System.out.println("You were born on a " + birthDate.getDayOfWeek());
+
+		scan.close();
+	}
+}

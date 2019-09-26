@@ -1,0 +1,67 @@
+Assignment# 4
+
+Due Date: November 10, 2017 23:59:59
+
+Description: XYZ is a website to which qualified individuals are encouraged to contribute information about the latest technology trends. Contributors may write original articles or comment on articles written by others.
+XYZ wishes to encourage high-quality contributions by a wide range of contributors.  For this purpose, it plans to extend its current computer system to provide incentives that will reward participation.  The incentives are of four categories:
+(a) Points for certain types of activity. 
+(b) Badges given as recognition of specific accomplishments.  
+(c) Rewards based on the quality and extent of contribution. 
+(d) Bonus rewards derived from the other three categories.
+
+Based on above requirements provide followings:
+
+
+1. How will you measure quality of your software? (10)
+
+- To measure quality for the XYZ website, we will need to assess the following criterea
+to ensure that the software application is performing, with high quality, to the extent of the end goal:
+Understanding the overall scope, Quailty Dimensions (Performance, features, reliability, conformance, 
+durability, serviceability,asthetics, Perception), Montior quality control and assurance, Cost analysis of "known bugs" in program,
+Project Management, Engineering practice, have relevant reviews (in terms of the metrics, "players" in the 
+project, even review conductee from a higher source), Software testing before prodcution through strategy, and
+lastly overall testing of the final production application. following these measuring criterea will ensure that the 
+quality fo the web application will be high and successful.   
+
+
+
+
+2. Provide project planning tasks document related to above requirements. Document must include: (60)
+
+	- project scope
+	- feasibility study
+	- risk analysis
+	- resource planning
+	
+	- Estimate cost and effort
+	- Project schedule
+
+
+
+3. Provide a plan for project maintenance. (10)
+We will try implement the webapp in a way where its is as easy and efficient for the customer, hence the end user. 
+The webapp will be self sufficient in sense that it will audit itself for all activity. All webapps should be designed in a modular way, 
+so we will make sure to implement it as such. That self sufficiency that the webapp will implement will allow for software engineers to 
+recognize what is going wrong and right for the end user as he or she uses it.
+The cost of maintenance will be needed for any webapp, and must be defined in a way where it is feasible. 
+There is a defined analysis that allows for the cost of maintenance to be calculated in a nut shell. 
+Cmaint = [current annual business value of an application - (current annual maintenance cost for an application + current annual operation cost for an application)] x expected life of the system
+Data architecture will be an important piece to do maintenance for a successful webapp. We will need to ensure that all data holds integrity, 
+behaves properly and is functionally sound.
+Lastly, Inventory analysis is key for any successful webapp. This again will relate to any such piece of code that is behaving improperly. 
+Noting any such activities will allow for proper maintenance on the code and allow us to specifically pick qualified individuals to do so. 
+This will be a continuous communication between the webapp and the software engineers.
+
+4. Discuss how you can improve the process. (15)
+When it comes to improvements, we defined impactful process that are essential to the success of the webapp to make improvements upon: 
+1. Quality, 2. time analysis, 3. cost analysis, 4. personnel development. To successfully figure out and improve the processes, 
+we will need to implement use cases to see which improvements we need to make.Process improvement will need to be constructed through the SPI Process. 
+The SPI process will indicate what needs to be done as well as what actions we need to take to successfully improve the process. 
+Already implemented tasks and actions will be then checked for consistency to make sure that proper functionality and cohesiveness 
+is implemented in the webapp. We will need to carry out a level of sophistication and acceptance of the practice we intend to implement for the webapp. 
+The software process and the engineering practice needs to be accepted and measured correctly to start the overall creation and design.
+Commitment is key when it comes to having quality software. It is important that the service, being us, provide all employees proper training 
+in terms of technicalities. Also having all material to build a successful webapp is very important, obviously, 
+but emphasis should be made upon making sure that the newest technologies are available to utilize and make and impact.
+Communication is key to any success. We will make sure that all useful implementations of communication will be available for any one on the project. 
+This will ensure that everyone is available and interacting to produce a high quality product.

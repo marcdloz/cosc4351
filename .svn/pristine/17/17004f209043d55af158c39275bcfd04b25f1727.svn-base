@@ -1,0 +1,17 @@
+Assignment #3
+
+Due Date: October 27, 2017 23:59:59
+
+Description: XYZ is a website to which qualified individuals are encouraged to contribute information about the latest technology trends. Contributors may write original articles or comment on articles written by others.
+XYZ wishes to encourage high-quality contributions by a wide range of contributors.  For this purpose, it plans to extend its current computer system to provide incentives that will reward participation.  The incentives are of four categories:
+(a) Points for certain types of activity. 
+(b) Badges given as recognition of specific accomplishments.  
+(c) Rewards based on the quality and extent of contribution. 
+(d) Bonus rewards derived from the other three categories.
+
+Based on above requirements provide followings:
+
+1. Provide overall architecture of the solution that you propose.
+2. What design patterns are you going to use? What is the reason for using it?
+3. What technologies are you going to use to implement the solution?
+4. What development methodology are you planning to use and why?

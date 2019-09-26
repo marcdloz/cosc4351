@@ -1,0 +1,8 @@
+2. when it comes to designing patterns for the website, We would like to take an extensive approach to ensure that we have solutions for as many repeatable problems there are.
+We will begin by by catagorizing the different design patterns we will be looking into which include: Architectural, Data, Component, Interface, and Webapp desgin problems. We decided
+to look into all of these designs patterns, because they are all essential desgins when creating a web application. Some of these desings can become very granular in regards to their issues,
+and those issues are very important to clairfy, so that they are not reoccuring continuously. Achitectural design patterns will look for broader probelms that are solved using the 
+STRUCTURAL approach. For data design problems, we will use DATA MODELING SOLUTIONS to ensure that we have solutions for reoccuring problems. For component based probelms will analyze 
+problems with the developement subsystems and components, in regards to how they communicate and are placed in the overall achitecture. Interface design will solidify issues that most end users 
+see when using the application. Lastly, Webapp design will look forthe overall issues of the webapp, since its success in this case is success of the entire project. All webapp issues must be solidified.
+ 

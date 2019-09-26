@@ -1,0 +1,62 @@
+Assignment #1
+COSC 4351
+
+Due Date: September 22, 2017 23:59:59
+
+Description: XYZ is a website to which qualified individuals are encouraged to contribute information about the latest technology trends. Contributors may write original articles or comment on articles written by others.
+XYZ wishes to encourage high-quality contributions by a wide range of contributors.  For this purpose, it plans to extend its current computer system to provide incentives that will reward participation.  The incentives are of four categories:
+(a) Points for certain types of activity. 
+(b) Badges given as recognition of specific accomplishments.  
+(c) Rewards based on the quality and extent of contribution. 
+(d) Bonus rewards derived from the other three categories.
+
+You are asked to recommend a software development process for the proposed extension to the XYZ system.
+
+1. Is the waterfall model a good choice for developing this system? Only Yes or No
+	No
+2. Give four reasons to support your answer in 1.
+	1. Waterfall model is bad in terms of adaptability. once you get down to the production level, for example, any sort of change such as requirments will cause massive delays and be very inefficient, because you will need to go through multiple phases again. phases such as developement and testing in this case. 
+	2. Once a waterfall SDLC gets into the testing phase, it's near impossible to go back to research and development phases. The process to get to testing in terms of the waterfall method takes a very long time, so trying to revert back to those phases will be very costly for the client, as well as you.
+	3. waterfall is only good fro short term projects because it's easier to go back to previous phases. this is a long term project, so it will not be  good model.
+	4. waterall methodology doesn't support continuous client interaction. once research phases are done, there is minimal interaction with the client and it can lead to an incomplete project.
+3. Is iterative development leading to a single release of the system a good choice for developing this system? Only Yes or No
+	No
+4. Give four reasons to support your answer in 3.
+	1. Iterative model follows the waterfall methodolgy but in segregated processes. its actually even more ineffcient then waterfall at times because the process of going through a bunch of mini waterfall implementations can messy and introduce alot of phase revisiting. 
+	2. Iterative model focuses on design and implementation and not so much on client interactin. this project will need alot of communication, so this methodology will be unwise to implement on this project.
+	3. Because there is not as much emphasis on research and communication, ther is a high chance that a lousy final product will be made. 
+	4. Iterative model is very similar to Waterfall in terms of it being unadaptable to change. Every project runs across problems and has to go through changes, so this method is not a good one for this project, whereas Agile would be.
+5. Is agile development with releases of small increments of software a good choice for developing this system? Only Yes or No
+	yes
+6. Give four reasons to support your answer in 5.
+	1. Agile Methodology is known fo its adaptive planning and development, so planning and executing this type of software would fit into its methodolgy, though it might not be the best 
+	2. continuous collaboration and communication with a client is a must and with agile, the methodology allows for parallel communication with the client for rquirments and understanding while doing other parts of the project. 
+	3. Because Agile allows for multiple phases do be done at once, we can overlap the software increments and get ahead faster with the methodology.
+	4. Agile would be perfect for a project such as this because in essence, the methodology welcomes change and it easily accommodates for it. if the increments are changing in design, it will be hadled efficiently.
+5. Is agile development with releases of small increments of software a good choice for developing this system? Only Yes or No
+7. What software development process would you recommend and why?
+	Agile. Because agile is more dynamic and accommodates for all phases of the SDLC efficiently. it doesnt forget about the customer, but also produces a quality product. other methodologies lack the full capabilities of Agile	
+
+
+
+8. Provide stories that you will use to develop the above systems. (Research on how to create stories.)
+
+Google is working on project to come up with a competing product for MS Word, that provides all the features provided by MS Word and any other features requested by the marketing team. The final product needs to be ready in 10 months of time. Let us see how this project is executed in traditional and Agile methodologies.
+In traditional Waterfall model –
+
+At a high level, the project teams would spend 15% of their time on gathering requirements and analysis (1.5 months)
+20% of their time on design (2 months)
+40% on coding (4 months) and unit testing
+20% on System and Integration testing (2 months).
+At the end of this cycle, the project may also have 2 weeks of User Acceptance testing by marketing teams.
+In this approach, the customer does not get to see the end product until the end of the project, when it becomes too late to make significant changes.
+
+With Agile development methodology –
+In the Agile methodology, each project is broken up into several ‘Iterations’.
+All Iterations should be of the same time duration (between 2 to 8 weeks).
+At the end of each iteration, a working product should be delivered.
+In simple terms, in the Agile approach the project will be broken up into 10 releases (assuming each iteration is set to last 4 weeks).
+Rather than spending 1.5 months on requirements gathering, in Agile software development, the team will decide the basic core features that are required in the product and decide which of these features can be developed in the first iteration.
+Any remaining features that cannot be delivered in the first iteration will be taken up in the next iteration or subsequent iterations, based on priority.
+At the end of the first iterations, the team will deliver a working software with the features that were finalized for that iteration.
+There will be 10 iterations and at the end of each iteration the customer is delivered a working software that is incrementally enhanced and updated with the features that were shortlisted for that iteration.

@@ -1,0 +1,29 @@
+Assignment #1
+COSC 4351
+
+Due Date: September 22, 2017 23:59:59
+
+Description: XYZ is a website to which qualified individuals are encouraged to contribute information about the latest technology trends. Contributors may write original articles or comment on articles written by others.
+XYZ wishes to encourage high-quality contributions by a wide range of contributors.  For this purpose, it plans to extend its current computer system to provide incentives that will reward participation.  The incentives are of four categories:
+(a) Points for certain types of activity. 
+(b) Badges given as recognition of specific accomplishments.  
+(c) Rewards based on the quality and extent of contribution. 
+(d) Bonus rewards derived from the other three categories.
+
+You are asked to recommend a software development process for the proposed extension to the XYZ system.
+
+1. Is the waterfall model a good choice for developing this system? Only Yes or No
+
+2. Give four reasons to support your answer in 1.
+
+3. Is iterative development leading to a single release of the system a good choice for developing this system? Only Yes or No
+
+4. Give four reasons to support your answer in 3.
+
+5. Is agile development with releases of small increments of software a good choice for developing this system? Only Yes or No
+
+6. Give four reasons to support your answer in 5.
+
+7. What software development process would you recommend and why?
+
+8. Provide stories that you will use to develop the above systems. (Research on how to create stories.)
